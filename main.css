@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(47, 47, 109);
+}
+
+.dropdown-menu{
+    background-color: rgb(175, 175, 175);
+    border-radius: 0%;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 110%;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 1);
+}
