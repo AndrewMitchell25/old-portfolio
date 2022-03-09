@@ -68,6 +68,19 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
+.background-image-cubing{
+    position: absolute;
+    filter: blur(2px);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 1500px;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 .title{
     z-index: 5;
 }
