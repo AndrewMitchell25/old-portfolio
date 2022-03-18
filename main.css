@@ -44,7 +44,7 @@
 
 .plexus {
     min-width: 1200px;
-    min-height: 100%
+    min-height: 100%;
 }
 
 .background-image {
@@ -167,4 +167,31 @@
     height: auto;
     width: 100%;
     overflow: hidden;
+}
+
+.ctf-video{
+    height: auto;
+    width: 110%;
+    min-width: 700px;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-55%);
+}
+
+.circle-image{
+    height: 25vh;
+    width: 25vh;
+}
+
+.pro-image{
+    height: auto;
+    width: 25vh;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-45%);
+}
+
+.resume-title{
+    color: rgb(47, 47, 109);
 }
