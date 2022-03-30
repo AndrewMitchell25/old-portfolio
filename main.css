@@ -1,4 +1,5 @@
 .navbar{
+    background-color: rgb(47, 47, 109);
     z-index: 10;
 }
 
@@ -197,40 +198,4 @@
 
 .resume-name{
     font-size: 50px;
-}
-
-.spacer{
-    aspect-ratio: 900/450;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 3;
-    
-}
-
-.orange1{
-    background-image: url(images/svg/orange-waves.svg);
-}
-
-.orange2{
-    background-image: url(images/svg/orange-waves-2.svg);
-}
-
-.black{
-    background: rgb(20, 20, 20);
-}
-
-.orange{
-    background: #F7770F;
-}
-
-section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 800px;
-    padding: 100px 20vw;
-    z-index: 1;
 }
