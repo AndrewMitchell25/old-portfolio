@@ -200,47 +200,21 @@
 }
 
 .spacer{
-    aspect-ratio: 1080/200;
+    aspect-ratio: 900/450;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     z-index: 3;
     
 }
 
 .orange1{
-    background-image: url(images/svg/orange/orange-1.svg);
+    background-image: url(images/svg/orange-waves.svg);
 }
 
 .orange2{
-    background-image: url(images/svg/orange/orange-2.svg);
-}
-
-.green1{
-    background-image: url(images/svg/green/green-1.svg);
-}
-
-.green2{
-    background-image: url(images/svg/green/green-2.svg);
-}
-
-.green3{
-    background-image: url(images/svg/green/green-3.svg);
-    transform: rotate(180deg) scaleX(-1);
-}
-
-.green4{
-    background-image: url(images/svg/green/green-4.svg);
-}
-
-.green5{
-    background-image: url(images/svg/green/green-5.svg);
-    transform: rotate(180deg) scaleX(-1);
-}
-
-.green6{
-    background-image: url(images/svg/green/green-6.svg);
+    background-image: url(images/svg/orange-waves-2.svg);
 }
 
 .black{
@@ -248,13 +222,7 @@
 }
 
 .orange{
-    /*FCAF3C*/
     background: #F7770F;
-}
-
-.green{
-    /*55d94b*/
-    background: #008d0b;
 }
 
 section{
@@ -262,7 +230,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 60vh;
+    min-height: 800px;
     padding: 100px 20vw;
     z-index: 1;
 }
