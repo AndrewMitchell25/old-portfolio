@@ -39,6 +39,7 @@
 }
 
 .main-hero {
+  z-index: 4;
   height: 100vh;
   background: #1c1d25;
   overflow: hidden;
@@ -62,7 +63,6 @@
 
 .shapes {
   position: absolute;
-  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -82,6 +82,37 @@
   position: absolute;
 }
 
+.orange1 {
+  transform: translateX(20vw);
+  top: 10%;
+  position: absolute;
+}
+
+.white1 {
+  transform: translateX(50vw);
+  top: 70%;
+  position: absolute;
+}
+
 .test {
   height: 1000vh;
+}
+
+.about {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-text{
+  top: 20%;
+  color: white;
+  position: absolute;
+  transform: translateY(-50%);
+  padding-left: 60px;
+  text-align: center!important;
+}
+
+.about-title {
+  font-size: 300%;
 }

@@ -20,9 +20,23 @@ export default function Header() {
                     </Parallax>
                 </div>
                 <div className="blue2">
-                    <Parallax speed={-5}>
+                    <Parallax speed={8}>
                         <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="50" cy="50" r="50" fill="#458699"/>
+                        </svg>
+                    </Parallax>
+                </div>
+                <div className="orange1">
+                    <Parallax speed={-5}>
+                        <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#c36800"/>
+                        </svg>
+                    </Parallax>
+                </div>
+                <div className="white1">
+                    <Parallax speed={-8}>
+                        <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#dadada"/>
                         </svg>
                     </Parallax>
                 </div>
