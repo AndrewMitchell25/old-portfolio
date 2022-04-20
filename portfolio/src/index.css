@@ -30,6 +30,11 @@
   font-size: 175%;
 }
 
+.navbar-logo{
+  width: 7%;
+  height: auto;
+}
+
 .navbar-toggler{
   color: white;
 }

@@ -1,10 +1,12 @@
 import {Link} from "react-router-dom"
+import logo from "./logo.svg"
 
 export default function Navbar() {
     return(
         <nav className="navbar navbar-dark navbar-expand-md">
         <div className="container-fluid">
             <div className="navbar-header">
+                <img src={logo} class="navbar-logo" alt="logo" />
                 <span className="navbar-brand h1 text-white">
                 Andrew Mitchell
                 </span>
