@@ -16,15 +16,15 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="collapsible-navbar">
                 <ul className="navbar-nav me-auto">
-                    <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/resume">Resume</a></li>
+                    <li className="nav-item"><Link className="nav-link active" to="/">Home</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Projects</a>
+                        <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="#">Projects</Link>
                         <div className="dropdown-menu">
-                            <a className="dropdown-item" href="/project-horizon">Project: Horizon</a>
-                            <a className="dropdown-item" href="/capture-the-flag">Capture the Flag</a>
-                            <a className="dropdown-item" href="/sudoku-solver">Sudoku Solver</a>
-                            <a className="dropdown-item" href="/plexus-effect">Plexus Effect</a>
+                            <Link className="dropdown-item" to="/project-horizon">Project: Horizon</Link>
+                            <Link className="dropdown-item" to="/capture-the-flag">Capture the Flag</Link>
+                            <Link className="dropdown-item" to="/sudoku-solver">Sudoku Solver</Link>
+                            <Link className="dropdown-item" to="/plexus-effect">Plexus Effect</Link>
                         </div>
                     </li>
                 </ul>
@@ -43,14 +43,6 @@ export default function Navbar() {
                         <a className="nav-link" href="https://www.instagram.com/andrew.jmitchell/?hl=en" target="blank" aria-label="Instagram">
                             <i className="bi bi-instagram nav-icon"></i>
                         </a>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link" href="#" data-bs-toggle="dropdown" aria-label="Email">
-                            <i className="bi bi-envelope nav-icon"></i>
-                        </a>
-                        <div className="dropdown-menu dropdown-menu-end">
-                            <a className="dropdown-item" href="mailto: andrew.j.mitchell.247@gmail.com">andrew.j.mitchell.247@gmail.com</a>
-                        </div>
                     </li>
                 </ul>
             </div>
