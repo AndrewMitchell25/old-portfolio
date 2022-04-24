@@ -19,7 +19,7 @@ export default function Home() {
         <div className="test"></div>
       </ParallaxProvider>
     </div>
-    <Loader type="ball-pulse"/>
+    <Loader type="ball-pulse" active/>
     </>
   );
 }

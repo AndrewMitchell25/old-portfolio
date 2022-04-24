@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import Home from './pages/Home';
 import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
