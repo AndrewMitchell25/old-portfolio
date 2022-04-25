@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+    "framer-motion": "^6.3.2",
     "loaders.css": "^0.1.2",
     "node-sass": "^7.0.1",
     "react": "^18.0.0",

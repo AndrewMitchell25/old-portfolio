@@ -5,11 +5,13 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import Loader from "react-loaders"
 import { ParallaxProvider } from "react-scroll-parallax";
+import Transition from "../components/Transition";
 
 
 export default function Home() {
   return (
     <>
+    <Transition />
     <div className="main">
       <ParallaxProvider>
         <Navbar />

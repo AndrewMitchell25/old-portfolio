@@ -1,0 +1,12 @@
+import React from "react";
+import { motion } from "framer-motion";
+
+export default function Transition(){
+    return(
+        <>
+            <motion.div className="transition transition1" initial={{x:0}} animate={{x: -window.innerWidth, transition:{delay: 1, duration: 1}, ease:"easeInOut"}} exit={{x: 0, transition:{delay: .6, duration: 1}, ease: "easeInOut"}}/>
+            <motion.div className="transition transition2" initial={{x:0}} animate={{x: -window.innerWidth, transition:{delay: .8, duration: 1}, ease:"easeInOut"}} exit={{x: 0, transition:{delay: .8, duration: 1}, ease: "easeInOut"}}/>
+            <motion.div className="transition transition3" initial={{x:0}} animate={{x: -window.innerWidth, transition:{delay: .6, duration: 1}, ease:"easeInOut"}} exit={{x: 0, transition:{delay: 1, duration: 1}, ease: "easeInOut"}}/>    
+        </>
+    );
+}
