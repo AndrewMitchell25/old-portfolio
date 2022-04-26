@@ -1,9 +1,19 @@
 $primary-color: #aaaaaa;
 @import '~loaders.css/src/animations/ball-pulse.scss';
 @import 'animate.css';
+$background-color: #11224D;
+$blue1: #193A6F;
+$blue2: #2C599D;
+$blue3: #219EBC;
+$blue4: #9FE7F5;
+$blue5: #8ECAE6;
+$orange1: #FFB703;
+$orange2: #F78D19;
+$orange3: #FB8500;
+$white1: #F5F5F5;
 
 .navbar{
-  background-color: rgb(47, 47, 109);
+  background-color: $blue1;
   z-index: 10;
 }
 
@@ -50,7 +60,7 @@ $primary-color: #aaaaaa;
 .main-hero {
   z-index: 4;
   height: 100vh;
-  background: #1c1d25;
+  background: $background-color;
   overflow: hidden;
 }
 
@@ -78,30 +88,35 @@ $primary-color: #aaaaaa;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .blue1 {
   transform: translateX(75vw);
   top: 50%;
   position: absolute;
+  color: $blue1;
 }
 
 .blue2 {
   transform: translateX(60vw);
   top: 70%;
   position: absolute;
+  color: $blue3;
 }
 
 .orange1 {
   transform: translateX(20vw);
   top: 10%;
   position: absolute;
+  color: $orange2;
 }
 
 .white1 {
   transform: translateX(50vw);
   top: 70%;
   position: absolute;
+  color: $white1;
 }
 
 .test {
