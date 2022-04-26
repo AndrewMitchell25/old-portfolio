@@ -6,6 +6,7 @@ import Contact from "../components/Contact";
 import Loader from "react-loaders"
 import { ParallaxProvider } from "react-scroll-parallax";
 import Transition from "../components/Transition";
+import Shapes from "../components/Shapes";
 
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
     <div className="main">
       <ParallaxProvider>
         <Navbar />
+        <Shapes />
         <Header />
         <About />
         <Contact />
-        <div className="test"></div>
       </ParallaxProvider>
     </div>
     <Loader type="ball-pulse" active/>
