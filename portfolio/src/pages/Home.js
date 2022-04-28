@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Transition from "../components/Transition";
 import Shapes from "../components/Shapes";
+import Projects from "../components/Projects";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Shapes />
         <Header />
         <About />
+        <Projects />
         <Contact />
       </ParallaxProvider>
     </div>

@@ -210,3 +210,72 @@ $white1: #F5F5F5;
   margin: .5rem;
   color: $white1;
 }
+
+.projects {
+  position: relative;
+  height: 200%;
+  background: #1c1d25;
+  overflow: hidden;
+}
+.projects-title{
+  top: 0;
+  color: white;
+  position: relative;
+  padding: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.projects-projects{
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: left;
+
+  h3 {
+    font-size: 250%;
+  }
+}
+
+.github-button{
+  top: 0;
+  left: 10%;
+  background-color: $blue2;
+  position: relative;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: $white1;
+  border-width: 10px;
+}
+
+.github-link{
+  color: $white1;
+  text-underline-position: above;
+  padding-top: 10px;
+
+  i{
+    font-size: 120%;
+    padding: 5px;
+  }
+}
+
+.github-link:hover{
+  color: $white1;
+}
+
+.project-button{
+  top: 0;
+  left: 50%;
+  background-color: $blue2;
+  position: relative;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: $white1;
+  border-width: 10px;
+}
