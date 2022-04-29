@@ -34,7 +34,7 @@ export default function Projects() {
                             I even turned the game into a mobile app on my phone, which I am currently working on publishing to the 
                             app store.  
                             Play a demo of the game online "
-                            projLink=""
+                            projLink="https://andrewmitchell25.github.io/CTFWebGL/index.html"
                             gLink="https://github.com/AndrewMitchell25/Capture-the-Flag"
                             image={{}}
                         />
