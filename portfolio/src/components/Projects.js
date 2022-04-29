@@ -21,8 +21,8 @@ export default function Projects() {
                             I was the lead front-end developer on this project and was in charge of creating the actual web-application, 
                             making the database it uses to store users, and connecting the front-end UI to the back-end calculations.
                             It was created using Python, Flask, HTML, and CSS."
-                            projLink=""
-                            gLink=""
+                            projLink="https://sol-solutions.herokuapp.com/"
+                            gLink="https://github.com/AndrewMitchell25/project-horizon"
                             image={{}}
                         />
                         <Project type={2} 
@@ -35,7 +35,7 @@ export default function Projects() {
                             app store.  
                             Play a demo of the game online "
                             projLink=""
-                            gLink=""
+                            gLink="https://github.com/AndrewMitchell25/Capture-the-Flag"
                             image={{}}
                         />
                         <Project type={1} 
@@ -49,8 +49,8 @@ export default function Projects() {
                             through a problem completely to come up with a solution.
                             At the moment, it only works in the command line, but I'm currently
                             working towards turning it into an interactive web application that will soon be featured on this website."
-                            projLink=""
-                            gLink=""
+                            projLink="https://github.com/AndrewMitchell25/SudokuSolver"
+                            gLink="https://github.com/AndrewMitchell25/SudokuSolver"
                             image={{}}
                         />
                     </div>

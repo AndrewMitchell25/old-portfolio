@@ -239,23 +239,28 @@ $white1: #F5F5F5;
 
 .github-button{
   top: 0;
-  left: 10%;
-  background-color: $blue2;
+  left: 0;
+  background-color: transparent;
   position: relative;
-  width: 30%;
+  width: 100%;
   height: 50px;
   text-align: center;
-  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   border-color: $white1;
-  border-width: 10px;
+  border-width: 4px;
+  border-style: solid;
+  margin: auto;
 }
 
 .github-link{
   color: $white1;
   text-underline-position: above;
   padding-top: 10px;
-
+  text-decoration: none;
+  top: 100%;
+  font-size: 130%;
+  
   i{
     font-size: 120%;
     padding: 5px;
@@ -268,14 +273,29 @@ $white1: #F5F5F5;
 
 .project-button{
   top: 0;
-  left: 50%;
-  background-color: $blue2;
+  left: 0;
+  background-color: $white1;
   position: relative;
-  width: 30%;
+  width: 100%;
   height: 50px;
   text-align: center;
-  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   border-color: $white1;
   border-width: 10px;
+  margin: auto;
+  padding: 8px;
+}
+
+.project-link{
+  color: $background-color;
+  text-underline-position: above;
+  padding-top: 10px;
+  text-decoration: none;
+  top: 100%;
+  font-size: 130%;
+}
+
+.project-link:hover{
+  color: $background-color;
 }

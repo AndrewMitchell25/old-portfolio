@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export default function Project(props){
@@ -11,22 +10,25 @@ export default function Project(props){
                     <p>
                         {props.text}
                     </p> 
-                    <motion.div className="github-button"
-                        whileHover={{ scale: 1.2 }}>
-
-                        <Link to={props.gLink} className="github-link">
-                            <i className="bi bi-github"></i>
-                            Github
-                        </Link>
-                    </motion.div>
-                    <motion.div className="project-button"
-                        whileHover={{ scale: 1.2 }}>
-
-                        <Link to={props.gLink} className="github-link">
-                            <i className="bi bi-github"></i>
-                            Github
-                        </Link>
-                    </motion.div>
+                    <div className="row">
+                        <div className="col-6">
+                            <motion.div className="github-button"
+                                whileHover={{ scale: 1.2 }}>
+                                <a href={props.gLink} target="blank" className="github-link">
+                                    <i className="bi bi-github"></i>
+                                    Github
+                                </a>
+                            </motion.div>
+                        </div>
+                        <div className="col-6">
+                            <motion.div className="project-button col-6"
+                                whileHover={{ scale: 1.2 }}>
+                                <a href={props.projLink} target="blank" className="project-link">
+                                    View Project
+                                </a>
+                            </motion.div>
+                        </div>
+                    </div>
                     <hr class="d-sm-none" />
                 </div>
                 <div class="col-7">
@@ -50,6 +52,26 @@ export default function Project(props){
                     <p>
                         {props.text}
                     </p> 
+                    <div className="row">
+                        <div className="col-6">
+                            <motion.div className="github-button"
+                                whileHover={{ scale: 1.2 }}>
+                                <a href={props.gLink} target="blank" className="github-link">
+                                    <i className="bi bi-github"></i>
+                                    Github
+                                </a>
+                            </motion.div>
+                        </div>
+                        <div className="col-6">
+                            <motion.div className="project-button col-6"
+                                whileHover={{ scale: 1.2 }}>
+                                <a href={props.projLink} target="blank" className="project-link">
+                                    View Project
+                                </a>
+                            </motion.div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         );

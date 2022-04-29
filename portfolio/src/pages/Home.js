@@ -20,6 +20,7 @@ export default function Home() {
         <Shapes />
         <Header />
         <About />
+        <Shapes />
         <Projects />
         <Contact />
       </ParallaxProvider>
