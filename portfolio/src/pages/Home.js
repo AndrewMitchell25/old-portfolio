@@ -17,12 +17,11 @@ export default function Home() {
     <div className="main">
       <ParallaxProvider>
         <Navbar />
-        <Shapes />
         <Header />
         <About />
-        <Shapes />
         <Projects />
         <Contact />
+        <Shapes />
       </ParallaxProvider>
     </div>
     {/*<Loader type="ball-pulse" active/>*/}

@@ -32,9 +32,9 @@ export default function Project(props){
                     <hr class="d-sm-none" />
                 </div>
                 <div class="col-7">
-                    <p>
-                        Hello there i dont know what im doing
-                    </p>
+                    <div className="project-image">
+                        <img src={props.image} alt={props.title}/>
+                    </div>
                 </div>
             </div>
         );
@@ -42,9 +42,9 @@ export default function Project(props){
         return(
             <div className="row">
                 <div class="col-7 mx-auto">
-                    <p>
-                        Hello there i dont know what im doing
-                    </p>
+                    <div className="project-image">
+                        <img src={props.image} alt={props.title}/>
+                    </div>
                     <hr class="d-sm-none" />
                 </div>
                 <div class="col-sm">

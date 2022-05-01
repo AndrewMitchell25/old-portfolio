@@ -88,6 +88,7 @@ $white1: #F5F5F5;
   width: 100%;
   height: 300vh;
   overflow: hidden;
+  z-index: 0;
 }
 
 .circle{
@@ -221,9 +222,13 @@ $white1: #F5F5F5;
   top: 0;
   color: white;
   position: relative;
-  padding: 60px;
+  padding-top: 60px;
   width: 100%;
   text-align: center;
+
+  h1{
+    font-size: 300%;
+  }
 }
 
 .projects-projects{
@@ -298,4 +303,18 @@ $white1: #F5F5F5;
 
 .project-link:hover{
   color: $background-color;
+}
+
+.project-image{
+  width: 100%;
+  max-height: 50vh;
+  overflow: hidden;
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+  }
 }

@@ -1,5 +1,6 @@
 import React from "react"
 import Project from "./Project";
+import ctfImage from "../images/capture-the-flag.png";
 
 export default function Projects() {
     return(
@@ -23,7 +24,7 @@ export default function Projects() {
                             It was created using Python, Flask, HTML, and CSS."
                             projLink="https://sol-solutions.herokuapp.com/"
                             gLink="https://github.com/AndrewMitchell25/project-horizon"
-                            image={{}}
+                            image={ctfImage}
                         />
                         <Project type={2} 
                             title="Capture The Flag"
@@ -34,9 +35,9 @@ export default function Projects() {
                             I even turned the game into a mobile app on my phone, which I am currently working on publishing to the 
                             app store.  
                             Play a demo of the game online "
-                            projLink="https://andrewmitchell25.github.io/CTFWebGL/index.html"
+                            projLink=""
                             gLink="https://github.com/AndrewMitchell25/Capture-the-Flag"
-                            image={{}}
+                            image={ctfImage}
                         />
                         <Project type={1} 
                             title="Sudoku Solver"
@@ -51,7 +52,7 @@ export default function Projects() {
                             working towards turning it into an interactive web application that will soon be featured on this website."
                             projLink="https://github.com/AndrewMitchell25/SudokuSolver"
                             gLink="https://github.com/AndrewMitchell25/SudokuSolver"
-                            image={{}}
+                            image={ctfImage}
                         />
                     </div>
                 </div>
