@@ -60,7 +60,7 @@ export default function Projects() {
                 <div>
                     <div className="container">
                         <div className="row">
-                            <div className="col mx-auto">
+                            <div className="col-4 mx-auto">
                                 <MiniProject 
                                     title="Tyler the Twitter Bot"
                                     text=""
@@ -70,7 +70,7 @@ export default function Projects() {
                                 />
                                 <hr class="d-sm-none" />
                             </div>
-                            <div className="col mx-auto">
+                            <div className="col-4 mx-auto">
                                 <MiniProject 
                                     title="Plexus Effect"
                                     text=""
@@ -80,7 +80,7 @@ export default function Projects() {
                                 />
                                 <hr class="d-sm-none" />
                             </div>
-                            <div className="col mx-auto">
+                            <div className="col-4 mx-auto">
                                 <MiniProject 
                                     title="Chess"
                                     text=""
