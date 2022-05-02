@@ -1,5 +1,6 @@
 import React from "react"
 import Project from "./Project";
+import MiniProject from "./MiniProject";
 import ctfImage from "../images/capture-the-flag.png";
 
 export default function Projects() {
@@ -35,7 +36,7 @@ export default function Projects() {
                             I even turned the game into a mobile app on my phone, which I am currently working on publishing to the 
                             app store.  
                             Play a demo of the game online "
-                            projLink=""
+                            projLink={process.env.PUBLIC_URL + '/CTFWebGL/index.html'}
                             gLink="https://github.com/AndrewMitchell25/Capture-the-Flag"
                             image={ctfImage}
                         />
@@ -56,6 +57,42 @@ export default function Projects() {
                         />
                     </div>
                 </div>
+                <div>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col mx-auto">
+                                <MiniProject 
+                                    title="Tyler the Twitter Bot"
+                                    text=""
+                                    projLink="https://twitter.com/TylerIsABot2"
+                                    gLink="https://github.com/AndrewMitchell25/Tyler"
+                                    image={""}
+                                />
+                                <hr class="d-sm-none" />
+                            </div>
+                            <div className="col mx-auto">
+                                <MiniProject 
+                                    title="Plexus Effect"
+                                    text=""
+                                    projLink="https://twitter.com/TylerIsABot2"
+                                    gLink="https://github.com/AndrewMitchell25/Tyler"
+                                    image={""}
+                                />
+                                <hr class="d-sm-none" />
+                            </div>
+                            <div className="col mx-auto">
+                                <MiniProject 
+                                    title="Chess"
+                                    text=""
+                                    projLink="https://twitter.com/TylerIsABot2"
+                                    gLink="https://github.com/AndrewMitchell25/Tyler"
+                                    image={""}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </>
     );

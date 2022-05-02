@@ -318,3 +318,26 @@ $white1: #F5F5F5;
     
   }
 }
+
+.miniproject{
+  color: $white1;
+  width: 100%;
+  display: flex;
+
+  h3{
+    margin: auto;
+    position: relative;
+  }
+
+}
+
+.miniproject-image{
+  position: relative;
+  display: block;
+  align-items: center;
+  text-align: center;
+
+  img{
+
+  }
+}
