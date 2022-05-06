@@ -14,7 +14,7 @@ $white1: #F5F5F5;
 
 .navbar{
   background-color: $blue1;
-  z-index: 10;
+  z-index: 1000;
 }
 
 .dropdown-menu{
@@ -58,7 +58,6 @@ $white1: #F5F5F5;
 }
 
 .main-hero {
-  z-index: 4;
   height: 100vh;
   background: $background-color;
   overflow: hidden;
@@ -66,6 +65,7 @@ $white1: #F5F5F5;
 
 .main-hero-text{
   top: 50%;
+  z-index: 10;
   color: white;
   position: absolute;
   transform: translateY(-50%);
@@ -86,7 +86,7 @@ $white1: #F5F5F5;
   top: 0;
   left: 0;
   width: 100%;
-  height: 300vh;
+  height: 200vh;
   overflow: hidden;
   z-index: 0;
 }
@@ -127,6 +127,7 @@ $white1: #F5F5F5;
 
 .about-text{
   top: 30%;
+  z-index: 10;
   color: white;
   position: absolute;
   transform: translateY(-50%);
@@ -309,13 +310,15 @@ $white1: #F5F5F5;
   width: 100%;
   max-height: 50vh;
   overflow: hidden;
+  border-color: $white1;
+  border-width: 10px;
+  border-style: solid;
 
   img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    
   }
 }
 
@@ -338,6 +341,6 @@ $white1: #F5F5F5;
   text-align: center;
 
   img{
-
+    width: 50%;
   }
 }

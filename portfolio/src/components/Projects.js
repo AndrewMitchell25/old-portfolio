@@ -2,6 +2,7 @@ import React from "react"
 import Project from "./Project";
 import MiniProject from "./MiniProject";
 import ctfImage from "../images/capture-the-flag.png";
+import twitterlogo from "../images/twitter-logo.png";
 
 export default function Projects() {
     return(
@@ -57,18 +58,18 @@ export default function Projects() {
                         />
                     </div>
                 </div>
+                {/*
                 <div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-4 mx-auto">
+                            <div className="col-md-4 mx-auto">
                                 <MiniProject 
                                     title="Tyler the Twitter Bot"
                                     text=""
                                     projLink="https://twitter.com/TylerIsABot2"
                                     gLink="https://github.com/AndrewMitchell25/Tyler"
-                                    image={""}
+                                    image={twitterlogo}
                                 />
-                                <hr class="d-sm-none" />
                             </div>
                             <div className="col-4 mx-auto">
                                 <MiniProject 
@@ -78,7 +79,6 @@ export default function Projects() {
                                     gLink="https://github.com/AndrewMitchell25/Tyler"
                                     image={""}
                                 />
-                                <hr class="d-sm-none" />
                             </div>
                             <div className="col-4 mx-auto">
                                 <MiniProject 
@@ -92,7 +92,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-
+                */}
             </div>
         </>
     );

@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 export default function Project(props){
     if(props.type === 1){
         return(
-            <div className="row my-5">
-                <div class="col-sm mx-auto">
+            <div className="row my-5 align-items-center">
+                <div class="col-md mx-auto">
                     <h3>{props.title}</h3>
                     <p>
                         {props.text}
@@ -29,9 +29,8 @@ export default function Project(props){
                             </motion.div>
                         </div>
                     </div>
-                    <hr class="d-sm-none" />
                 </div>
-                <div class="col-7">
+                <div class="col-md-7">
                     <div className="project-image">
                         <img src={props.image} alt={props.title}/>
                     </div>
@@ -40,12 +39,11 @@ export default function Project(props){
         );
     } else if(props.type === 2){
         return(
-            <div className="row">
-                <div class="col-7 mx-auto">
+            <div className="row align-items-center">
+                <div class="col-md-7 mx-auto">
                     <div className="project-image">
                         <img src={props.image} alt={props.title}/>
                     </div>
-                    <hr class="d-sm-none" />
                 </div>
                 <div class="col-sm">
                     <h3>{props.title}</h3>
