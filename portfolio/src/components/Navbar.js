@@ -39,11 +39,6 @@ export default function Navbar() {
                           <i className="bi bi-linkedin nav-icon"></i>
                       </a>
                     </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="https://www.instagram.com/andrew.jmitchell/?hl=en" target="blank" aria-label="Instagram">
-                            <i className="bi bi-instagram nav-icon"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>

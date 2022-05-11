@@ -13,6 +13,11 @@ $orange2: #F78D19;
 $orange3: #FB8500;
 $white1: #F5F5F5;
 
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+}
+
 .navbar{
   background-color: $blue1;
   z-index: 1000;
@@ -125,6 +130,14 @@ $white1: #F5F5F5;
   color: $orange2;
 }
 
+.orange1 {
+  color: $orange1;
+}
+
+.orange3 {
+  color: $orange3;
+}
+
 .white1 {
   color: $white1;
 }
@@ -136,11 +149,12 @@ $white1: #F5F5F5;
 .about {
   position: relative;
   height: 50vh;
+  width: 100%;
   background-color: $blue1;
 }
 
 .about-text{
-  top: 30%;
+  top: 50%;
   z-index: 10;
   color: white;
   position: absolute;
@@ -157,6 +171,7 @@ $white1: #F5F5F5;
 .contact {
   position: relative;
   height: 100vh;
+  width: 100%;
   background: #1c1d25;
   overflow: hidden;
 }
@@ -166,7 +181,6 @@ $white1: #F5F5F5;
   color: white;
   position: absolute;
   transform: translateY(-20%);
-  padding: 60px;
   width: 100%;
   text-align: center!important;
 }
@@ -218,7 +232,8 @@ $white1: #F5F5F5;
 }
 
 .contact-form-boxes{
-  width: 50%;
+  max-width: 70%;
+  min-width: 50vw;
   border: 0;
   background: $blue1;
   height: 20%;
@@ -327,6 +342,8 @@ $white1: #F5F5F5;
   border-color: $white1;
   border-width: 10px;
   border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   img{
     display: block;
