@@ -1,8 +1,10 @@
 import React from "react"
 import Project from "./Project";
-import MiniProject from "./MiniProject";
+//import MiniProject from "./MiniProject";
 import ctfImage from "../images/capture-the-flag.png";
-import twitterlogo from "../images/twitter-logo.png";
+import projecthorizon from "../images/projecthorizon.png";
+import sudoku from "../images/sudoku.png";
+
 
 export default function Projects() {
     return(
@@ -26,7 +28,7 @@ export default function Projects() {
                             It was created using Python, Flask, HTML, and CSS."
                             projLink="https://sol-solutions.herokuapp.com/"
                             gLink="https://github.com/AndrewMitchell25/project-horizon"
-                            image={ctfImage}
+                            image={projecthorizon}
                         />
                         <Project type={2} 
                             title="Capture The Flag"
@@ -54,7 +56,7 @@ export default function Projects() {
                             working towards turning it into an interactive web application that will soon be featured on this website."
                             projLink="https://github.com/AndrewMitchell25/SudokuSolver"
                             gLink="https://github.com/AndrewMitchell25/SudokuSolver"
-                            image={ctfImage}
+                            image={sudoku}
                         />
                     </div>
                 </div>

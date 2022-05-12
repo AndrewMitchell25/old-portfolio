@@ -18,6 +18,10 @@ body{
   font-style: normal;
 }
 
+p{
+  font-size: 110%;;
+}
+
 .navbar{
   background-color: $blue1;
   z-index: 1000;
@@ -374,4 +378,9 @@ body{
   img{
     width: 50%;
   }
+}
+
+::placeholder{
+  color: $white1;
+  opacity: 50%;
 }
