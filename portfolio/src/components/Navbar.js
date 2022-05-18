@@ -17,7 +17,7 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="collapsible-navbar">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item"><Link className="nav-link active" to="/">Home</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li>
+                    {/*<li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="#">Projects</Link>
                         <div className="dropdown-menu">
@@ -27,6 +27,7 @@ export default function Navbar() {
                             <Link className="dropdown-item" to="/plexus-effect">Plexus Effect</Link>
                         </div>
                     </li>
+                     */}
                 </ul>
                 <ul className="nav navbar-nav ms-md-auto">
                     <li className="nav-item">
