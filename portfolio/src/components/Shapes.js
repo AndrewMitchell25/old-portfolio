@@ -14,6 +14,9 @@ export default function Shapes(){
             <Circle className="circle blue6 d-sm-block d-none" speed={2} size="110" style={{transform: 'translateX(50vw)', top: '65vh'}}/>
             <Circle className="circle blue5 d-sm-block d-none" speed={-1} size="170" style={{transform: 'translateX(-2vw)', top: '0vh'}}/>
             <Circle className="circle orange3 d-sm-block d-none" speed={11} size="50" style={{transform: 'translateX(5vw)', top: '25vh'}}/>
+            <Circle className="circle blue3 d-sm-block d-none" speed={-11} size="150" style={{transform: 'translateX(5vw)', top: '205vh'}}/>
+            <Circle className="circle blue1 d-sm-block d-none" speed={-6} size="250" style={{transform: 'translateX(55vw)', top: '235vh'}}/>
+            <Circle className="circle blue2 d-sm-block d-none" speed={-3} size="160" style={{transform: 'translateX(95vw)', top: '380vh'}}/>
 
         </div>
     );

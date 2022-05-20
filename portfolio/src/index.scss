@@ -16,6 +16,7 @@ $white1: #F5F5F5;
 body{
   font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
+  z-index: 20;
 }
 
 p{
@@ -96,9 +97,9 @@ p{
   top: 0;
   left: 0;
   width: 100%;
-  height: 200%;
+  height: 450vh;
   overflow: hidden;
-  z-index: 0;
+  z-index: 0!important;
 }
 
 .circle{
@@ -152,41 +153,61 @@ p{
 
 .about {
   position: relative;
-  height: 50vh;
+  height: 100%;
   width: 100%;
   background-color: $blue1;
+  
 }
 
 .about-text{
-  top: 50%;
   z-index: 10;
   color: white;
-  position: absolute;
-  transform: translateY(-50%);
-  padding: 60px;
+  position: relative;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
   width: 100%;
   text-align: center;
 }
 
 .about-title {
+  z-index: 10;
+  color: white;
+  position: relative;
+  padding: 60px;
+  width: 100%;
+  text-align: center;
   font-size: 300%;
 }
 
 .contact {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: #1c1d25;
   overflow: hidden;
 }
 
 .contact-text{
-  top: 30%;
   color: white;
+  z-index: 10;
   position: absolute;
-  transform: translateY(-20%);
   width: 100%;
   text-align: center!important;
+  position: relative;
+}
+
+.contact-title{
+  z-index: 10;
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center!important;
+  font-size: 300%;
+  padding-top: 60px;
+
+  position: relative;
+  margin: 0;
 }
 
 .loader-active {
@@ -225,8 +246,11 @@ p{
 }
 
 .contact-form{
+  z-index: 10;
+
   width: 100%;
   margin-top: 2rem;
+  margin-bottom: 60px;
 
   ul {
     li {
@@ -254,6 +278,7 @@ p{
 }
 .projects-title{
   top: 0;
+  z-index: 10;
   color: white;
   position: relative;
   padding-top: 60px;
@@ -267,6 +292,7 @@ p{
 
 .projects-projects{
   color: white;
+  z-index: 10;
   position: relative;
   width: 100%;
   text-align: left;
@@ -277,6 +303,7 @@ p{
 }
 
 .github-button{
+  z-index: 10;
   top: 0;
   left: 0;
   background-color: transparent;
@@ -293,6 +320,7 @@ p{
 }
 
 .github-link{
+  z-index: 10;
   color: $white1;
   text-underline-position: above;
   padding-top: 10px;
@@ -311,6 +339,7 @@ p{
 }
 
 .project-button{
+  z-index: 10;
   top: 0;
   left: 0;
   background-color: $white1;
@@ -327,6 +356,7 @@ p{
 }
 
 .project-link{
+  z-index: 10;
   color: $background-color;
   text-underline-position: above;
   padding-top: 10px;
@@ -383,4 +413,16 @@ p{
 ::placeholder{
   color: $white1;
   opacity: 50%;
+}
+
+.footer{
+  z-index: 10;
+  height: 40px;
+  width: 100%;
+  background: $background-color;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: $white1;
+  padding: 10px;
 }

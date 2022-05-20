@@ -8,6 +8,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import Transition from "../components/Transition";
 import Shapes from "../components/Shapes";
 import Projects from "../components/Projects";
+import Footer from "../components/Footer.js";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Projects />
         <Contact />
         <Shapes />
+        <Footer/>
       </ParallaxProvider>
     </div>
     {/*<Loader type="ball-pulse" active/>*/}
