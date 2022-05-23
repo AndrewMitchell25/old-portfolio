@@ -28,6 +28,7 @@ export default function Projects() {
                         projLink="https://sol-solutions.herokuapp.com/"
                         gLink="https://github.com/AndrewMitchell25/project-horizon"
                         image={projecthorizon}
+                        stack={["Python", "Flask", "HTML", "CSS"]}
                     />
                     <Project type={2} 
                         title="Capture The Flag"

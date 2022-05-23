@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function About() {
 
     return(
@@ -10,6 +12,12 @@ export default function About() {
                     programming in some form or another since 5th grade and it has become a passion of mine. I am
                     always searching for new things to learn, and I enjoy proplem-solving.
                 </p>
+                <motion.div className="resume-button" whileHover={{ scale: 1.2 }}>
+                    <a className="resume-link" href={process.env.PUBLIC_URL + "AndrewMitchellResume.pdf"} target="_blank">Download My Resume</a>
+                </motion.div>
+            </div>
+            <div className="svgDesign">
+
             </div>
         </div>
     );

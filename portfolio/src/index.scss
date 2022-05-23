@@ -69,7 +69,7 @@ p{
 }
 
 .main-hero {
-  height: 100vh;
+  height: 95vh;
   background: $background-color;
   overflow: hidden;
 }
@@ -156,7 +156,8 @@ p{
   height: 100%;
   width: 100%;
   background-color: $blue1;
-  
+  text-align: center;
+  justify-content: center;
 }
 
 .about-text{
@@ -167,7 +168,15 @@ p{
   padding-left: 60px;
   padding-right: 60px;
   width: 100%;
+  max-width: 73ch;
   text-align: center;
+  margin: auto;
+}
+
+.svgDesign{
+  position: relative;
+  left: -25vw;
+  top: -20vh;
 }
 
 .about-title {
@@ -178,6 +187,38 @@ p{
   width: 100%;
   text-align: center;
   font-size: 300%;
+}
+
+.resume-button{
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: $white1;
+  color: $background-color;
+  position: relative;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  border-color: $white1;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.resume-link{
+  z-index: 10;
+  color: $background-color;
+  text-underline-position: above;
+  padding-top: 10px;
+  text-decoration: none;
+  top: 100%;
+  font-size: 100%;
+}
+
+.resume-link:hover{
+  color: $background-color;
 }
 
 .contact {
