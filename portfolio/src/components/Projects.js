@@ -60,7 +60,6 @@ export default function Projects() {
                     />
                 </div>
             </div>
-            {/*
             <div>
                 <div className="container">
                     <div className="row">
@@ -94,7 +93,6 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-            */}
         </div>
     );
 }

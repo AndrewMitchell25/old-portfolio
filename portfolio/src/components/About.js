@@ -13,7 +13,7 @@ export default function About() {
                     always searching for new things to learn, and I enjoy proplem-solving.
                 </p>
                 <motion.div className="resume-button" whileHover={{ scale: 1.2 }}>
-                    <a className="resume-link" href={process.env.PUBLIC_URL + "AndrewMitchellResume.pdf"} target="_blank">Download My Resume</a>
+                    <a className="resume-link" href={process.env.PUBLIC_URL + "AndrewMitchellResume.pdf"} target="blank">Download My Resume</a>
                 </motion.div>
             </div>
             <div className="svgDesign">
