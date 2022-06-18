@@ -1,6 +1,6 @@
 import React from "react"
 import Project from "./Project";
-//import MiniProject from "./MiniProject";
+import MiniProject from "./MiniProject";
 import ctfImage from "../images/capture-the-flag.png";
 import projecthorizon from "../images/projecthorizon.png";
 import sudoku from "../images/sudoku.png";
@@ -66,10 +66,16 @@ export default function Projects() {
                         <div className="col-md-4 mx-auto">
                             <MiniProject 
                                 title="Tyler the Twitter Bot"
-                                text=""
+                                text="at Notre Dame.
+                                The goal of the project is to educate users on the benefits of renewable energy and
+                                to encourage homeowners to switch to renewable energy by providing a 
+                                free consultation on the benefits of going solar in their local area.
+        
+                                I was the lead front-end developer on this project and was in charge of creating the actual web-application, 
+                                making the database"
                                 projLink="https://twitter.com/TylerIsABot2"
                                 gLink="https://github.com/AndrewMitchell25/Tyler"
-                                image={twitterlogo}
+                                //image={twitterlogo}
                             />
                         </div>
                         <div className="col-4 mx-auto">
