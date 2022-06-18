@@ -12,10 +12,14 @@ export default function MiniProject(props){
             <p>{props.text}</p>
             <div className="row">
                 <div className="col-md-6">
-                    <motion.button className="mini-button" whileHover={{ scale: 1.2 }}>Hello</motion.button>
+                    <a href={props.gLink} target="_blank">
+                        <motion.button className="mini-button" whileHover={{ scale: 1.2 }}>Hello</motion.button>
+                    </a>
                 </div>
                 <div className="col-md-6">
-                    <motion.button className="mini-button" whileHover={{ scale: 1.2 }}>Hello</motion.button>
+                    <a href={props.projLink} target="_blank">
+                        <motion.button className="mini-button" whileHover={{ scale: 1.2 }}>Hello</motion.button>
+                    </a>
                 </div>
             </div>
         </div>

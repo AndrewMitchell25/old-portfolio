@@ -61,9 +61,12 @@ export default function Projects() {
                 </div>
             </div>
             <div>
+                <div className="projects-title">
+                    <h1>Other Projects</h1>
+                </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4 mx-auto">
+                        <div className="col-lg-4 mx-auto">
                             <MiniProject 
                                 title="Tyler the Twitter Bot"
                                 text="at Notre Dame.
@@ -78,21 +81,12 @@ export default function Projects() {
                                 //image={twitterlogo}
                             />
                         </div>
-                        <div className="col-4 mx-auto">
+                        <div className="col-lg-4 mx-auto">
                             <MiniProject 
-                                title="Plexus Effect"
+                                title="Self-Driving Car"
                                 text=""
-                                projLink="https://twitter.com/TylerIsABot2"
-                                gLink="https://github.com/AndrewMitchell25/Tyler"
-                                image={""}
-                            />
-                        </div>
-                        <div className="col-4 mx-auto">
-                            <MiniProject 
-                                title="Chess"
-                                text=""
-                                projLink="https://twitter.com/TylerIsABot2"
-                                gLink="https://github.com/AndrewMitchell25/Tyler"
+                                projLink={process.env.PUBLIC_URL + '/projects/self-driving-car/index.html'}
+                                gLink="https://github.com/AndrewMitchell25/Self-Driving-Car"
                                 image={""}
                             />
                         </div>
