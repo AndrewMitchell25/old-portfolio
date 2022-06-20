@@ -69,13 +69,8 @@ export default function Projects() {
                         <div className="col-lg-4 mx-auto">
                             <MiniProject 
                                 title="Tyler the Twitter Bot"
-                                text="at Notre Dame.
-                                The goal of the project is to educate users on the benefits of renewable energy and
-                                to encourage homeowners to switch to renewable energy by providing a 
-                                free consultation on the benefits of going solar in their local area.
-        
-                                I was the lead front-end developer on this project and was in charge of creating the actual web-application, 
-                                making the database"
+                                text="Tyler is a twitter bot that I wrote using JavaScript, which uses Firebase to run and Firestore to hold keys for the Twitter API.
+                                I learned a lot through this project, including authentication with OAuth2.0, using Firebase and Firestore, and using APIs."
                                 projLink="https://twitter.com/TylerIsABot2"
                                 gLink="https://github.com/AndrewMitchell25/Tyler"
                                 //image={twitterlogo}

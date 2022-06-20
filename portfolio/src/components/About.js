@@ -12,9 +12,11 @@ export default function About() {
                     programming in some form or another since 5th grade and it has become a passion of mine. I am
                     always searching for new things to learn, and I enjoy proplem-solving.
                 </p>
-                <motion.div className="resume-button" whileHover={{ scale: 1.2 }}>
-                    <a className="resume-link" href={process.env.PUBLIC_URL + "AndrewMitchellResume.pdf"} target="blank">Download My Resume</a>
-                </motion.div>
+                <a className="resume-link" href={process.env.PUBLIC_URL + "AndrewMitchellResume.pdf"} target="blank">
+                    <motion.button className="resume-button" whileHover={{ scale: 1.2 }}>
+                        Download My Resume
+                    </motion.button>
+                </a>
             </div>
             <div className="svgDesign">
 

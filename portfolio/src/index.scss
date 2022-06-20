@@ -198,29 +198,16 @@ p{
   background-color: $white1;
   color: $background-color;
   position: relative;
-  width: auto;
+  width: 50%;
   height: auto;
   text-align: center;
   align-items: center;
   border-color: $white1;
   border-radius: 10px;
+  border-style: solid;
   margin: auto;
   padding: 10px;
   text-decoration: none;
-}
-
-.resume-link{
-  z-index: 10;
-  color: $background-color;
-  text-underline-position: above;
-  padding-top: 10px;
-  text-decoration: none;
-  top: 100%;
-  font-size: 100%;
-}
-
-.resume-link:hover{
-  color: $background-color;
 }
 
 .contact {
@@ -345,73 +332,52 @@ p{
   h3 {
     font-size: 250%;
   }
+
+  a{
+    text-decoration: none;
+  }
 }
 
 .github-button{
   z-index: 10;
-  top: 0;
-  left: 0;
-  background-color: transparent;
+  width: 80%;
+  margin: auto;
   position: relative;
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   border-radius: 10px;
   border-color: $white1;
   border-width: 4px;
   border-style: solid;
-  margin: auto;
-}
-
-.github-link{
-  z-index: 10;
+  margin-bottom: 10px;
+  background-color: $background-color;
   color: $white1;
-  text-underline-position: above;
-  padding-top: 10px;
-  text-decoration: none;
-  top: 100%;
-  font-size: 130%;
-  
+  padding: 8px;
+  font-size: 1.2rem;
   i{
     font-size: 120%;
-    padding: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
   }
 }
 
-.github-link:hover{
-  color: $white1;
-}
 
 .project-button{
   z-index: 10;
-  top: 0;
-  left: 0;
-  background-color: $white1;
+  width: 80%;
+  margin: auto;
   position: relative;
-  width: 100%;
-  height: 50px;
-  text-align: center;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   border-radius: 10px;
   border-color: $white1;
-  border-width: 10px;
-  margin: auto;
+  border-width: 4px;
+  border-style: solid;
+  margin-bottom: 10px;
+  color: $background-color;
+  background-color: $white1;
   padding: 8px;
-}
-
-.project-link{
-  z-index: 10;
-  color: $background-color;
-  text-underline-position: above;
-  padding-top: 10px;
-  text-decoration: none;
-  top: 100%;
-  font-size: 130%;
-}
-
-.project-link:hover{
-  color: $background-color;
+  font-size: 1.2rem;
 }
 
 .project-image{
@@ -443,18 +409,64 @@ p{
   margin: 10px;
   margin-bottom: 60px;
   padding: 10px;
+  border-radius: 10px;
+  border-color: $white1;
+  border-width: 10px;
+  
+  
   h3{
     margin: auto;
     position: relative;
   }
 
+  p{
+    padding: 10px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  i{
+    margin-right: 5px;
+  }
+
 }
 
-.mini-button{ 
-  padding: 10px;
+.mini-git-button{ 
   width: 80%;
   margin: auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: $white1;
+  border-width: 4px;
+  border-style: solid;
+  margin-bottom: 10px;
+  background-color: $background-color;
+  color: $white1;
+  padding: 8px;
+  font-size: 1.1rem;
+  
+}
+
+.mini-proj-button{
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: $white1;
+  border-width: 4px;
+  border-style: solid;
+  margin-bottom: 10px;
+  color: $background-color;
+  background-color: $white1;
+  padding: 8px;
+  font-size: 1.1rem;
+
 }
 
 .miniproject-image{

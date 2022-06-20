@@ -12,21 +12,21 @@ export default function Project(props){
                     </p> 
                     <div className="row">
                         <div className="col-6">
-                            <motion.div className="github-button"
-                                whileHover={{ scale: 1.2 }}>
-                                <a href={props.gLink} target="blank" className="github-link">
-                                    <i className="bi bi-github"></i>
-                                    Github
-                                </a>
-                            </motion.div>
+                            <a href={props.gLink} target="blank" className="">
+                                <motion.button className="github-button"
+                                    whileHover={{ scale: 1.2 }}>
+                                        <i className="bi bi-github"></i>
+                                        Github
+                                </motion.button>
+                            </a>
                         </div>
                         <div className="col-6">
-                            <motion.div className="project-button col-6"
-                                whileHover={{ scale: 1.2 }}>
-                                <a href={props.projLink} target="blank" className="project-link">
-                                    View Project
-                                </a>
-                            </motion.div>
+                            <a href={props.projLink} target="blank" className="">
+                                <motion.button className="project-button"
+                                    whileHover={{ scale: 1.2 }}>
+                                        View Project
+                                </motion.button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -52,21 +52,21 @@ export default function Project(props){
                     </p> 
                     <div className="row">
                         <div className="col-6">
-                            <motion.div className="github-button"
-                                whileHover={{ scale: 1.2 }}>
-                                <a href={props.gLink} target="blank" className="github-link">
-                                    <i className="bi bi-github"></i>
-                                    Github
-                                </a>
-                            </motion.div>
+                            <a href={props.gLink} target="blank" className="github-link">
+                                <motion.button className="github-button"
+                                    whileHover={{ scale: 1.2 }}>
+                                        <i className="bi bi-github"></i>
+                                        Github
+                                </motion.button>
+                            </a>
                         </div>
                         <div className="col-6">
-                            <motion.div className="project-button col-6"
-                                whileHover={{ scale: 1.2 }}>
-                                <a href={props.projLink} target="blank" className="project-link">
-                                    View Project
-                                </a>
-                            </motion.div>
+                            <a href={props.projLink} target="blank" className="project-link">
+                                <motion.button className="project-button col-6"
+                                    whileHover={{ scale: 1.2 }}>
+                                        View Project
+                                </motion.button>
+                            </a>
                         </div>
                     </div>
 
